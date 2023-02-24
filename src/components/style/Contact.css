@@ -1,0 +1,32 @@
+.get-in-touch{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 50px;
+    background-color: rgb(200, 200, 200);
+}
+.contact{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+.app img{
+    margin: 5px;
+    width: 50px;
+}
+.contact-detail{
+    font-size: medium;
+}
+.contact-detail a{
+    color: rgb(6, 130, 6);
+}
+@media screen and (min-width:768px){
+    .contact{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .contact span{
+        width:40%;
+    }
+}

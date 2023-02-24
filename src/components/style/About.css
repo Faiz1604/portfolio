@@ -1,0 +1,72 @@
+.about{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 50px;
+    background-color: rgb(200, 200, 200);
+}
+.highlight{
+    text-align: center;
+    color:rgb(6, 130, 6);
+    font-weight: bolder;
+    font-family:monospace;
+
+}
+.info p{
+    text-align: justify;
+}
+.info #fixed-background{
+    background: url("https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-attachment: fixed;
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+}
+.info *{
+    background-color: rgb(200, 200, 200);
+}
+.education{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#college-name,#intermediate-school,#high-school{
+    margin-top: 20px;
+    padding: 20px;  
+    width: 100%;
+    border: 1px solid rgb(6, 130, 6);
+    border-radius: 10px;
+}
+.projects{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
+.project{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgb(6, 130, 6);
+    border-radius: 10px;
+}
+@media screen and (min-width:768px) {
+    .education{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #college-name,#intermediate-school,#high-school{
+        width: 25%;
+    }
+    .projects{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .project{
+        width: 40%;
+    }
+}
