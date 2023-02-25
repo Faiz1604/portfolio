@@ -1,5 +1,6 @@
 import React from "react";
 import "./style/About.css";
+import photo from "./../assets/images/photo.png"
 function About() {
   return (
     <>
@@ -11,13 +12,14 @@ function About() {
           <div className="content">
             <div className="info">
               <p>
+                <img src={photo} alt="Mypicture" />
                 My name is <span className="highlight">FAIZ SIDDIQUE </span>
                 currently persing B.Tech. i will be graduate in 2024 from Noida
                 institute of engineering & Technology greater noida with degree
                 in computer science and engineer. i'm
                 <span className="highlight"> MERN </span> stack developer. i'm
                 very passionate about web developement and programming my goal
-                is to become software enginnering.in my free time i like to work
+                is to become software engineer.in my free time i like to work
                 on projects. i'm currently looking for full-time{" "} entry-level{" "} 
                 <span className="highlight">SOFTWARE ENGINEERING</span> or{" "}
                 <span className="highlight">WEB DEVELOPMENT</span>{" "}
@@ -79,7 +81,7 @@ function About() {
                   <a
                     className="btn btn-success"
                     href="https://merascorer.in/"
-                    target={"_blank"}
+                    target={"_blank"} rel="noreferrer"
                   >
                     Visit
                   </a>
@@ -90,7 +92,7 @@ function About() {
                     A news App created using Reactjs and third party API
                   </span>
                   <br />
-                  <a className="btn btn-success" href="#">
+                  <a className="btn btn-success" href="/">
                     Visit
                   </a>
                 </span>

@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import Typewriter from "typewriter-effect";
 import "./style/Header.css";
 import Navbar from "./Navbar";
 function Header() {
-  const [introArray, setIntroArray] = useState([
+  const introArray = useRef([
     "FAIZ SIDDIQUE",
     "WEB DEVELOPER",
     "PROGRAMMER",
@@ -25,16 +25,16 @@ function Header() {
                 }}
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString(introArray[0])
+                    .typeString(introArray.current[0])
                     .pauseFor(2000)
                     .deleteAll()
-                    .typeString(introArray[1])
+                    .typeString(introArray.current[1])
                     .pauseFor(2000)
                     .deleteAll()
-                    .typeString(introArray[2])
+                    .typeString(introArray.current[2])
                     .pauseFor(2000)
                     .deleteAll()
-                    .typeString(introArray[1])
+                    .typeString(introArray.current[1])
                     .start();
                 }}
               />

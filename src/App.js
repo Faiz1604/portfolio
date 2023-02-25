@@ -10,9 +10,9 @@ function App() {
       <Header/>
       <div id="about"><About/>
       </div>
-      {/* <div id="skills">
+      <div id="skills">
         <Skills/>
-      </div> */}
+      </div>
       <div id="contact">
         <Contact/>
       </div>

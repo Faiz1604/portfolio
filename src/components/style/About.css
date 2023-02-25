@@ -16,6 +16,12 @@
 .info p{
     text-align: justify;
 }
+.info img{
+    position: relative;
+    left:-10px;
+    border-radius: 5px;
+    width:250px;
+}
 .info #fixed-background{
     background: url("https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-attachment: fixed;

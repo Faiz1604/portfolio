@@ -1,5 +1,108 @@
-input[type=range]::-webkit-slider-runnable-track{
-    width: 10%;
-    background-color: blue;
-    border-radius: 100px;
+h1{
+  color: rgb(6, 130, 6);
+  font-family: monospace;
+  font-weight: bolder;
+}
+.contain{
+  width: 100%;
+  background-color: rgb(200, 200, 200);
+  padding: 50px 5px 1px 5px;
+}
+* {box-sizing: border-box}
+
+.range {
+  margin-bottom: 50px;
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 50px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.javascript{
+  width:80%;
+  background-color: rgb(6, 130, 6);
+  border-radius: 50px;
+}
+.javacore{
+  width:82%;
+  background-color: rgb(6, 130, 6);
+  border-radius: 50px;
+}
+.python{
+  width:70%;
+  background-color: rgb(6, 130, 6);
+  border-radius: 50px;
+}
+.ds{
+  width:78%;
+  background-color: rgb(6, 130, 6);
+  border-radius: 50px;
+}
+.reactjs{
+  width:80%;
+  background-color: rgb(6, 130, 6);
+  border-radius: 50px;
+}
+.html{
+  width:90%;
+  background-color: rgb(6, 130, 6);
+  border-radius: 50px;
+}
+.css{
+  width:75%;
+  background-color: rgb(6, 130, 6);
+  border-radius: 50px;
+}
+@media screen and (min-width:768px){
+  .contain{
+    padding: 50px 100px 50px 100px;
   }
+  .javascript{
+    width:80%;
+    height: 30px;
+    background-color: rgb(6, 130, 6);
+    border-radius: 50px;
+  }
+  .javacore{
+    width:82%;
+    height: 30px;
+    background-color: rgb(6, 130, 6);
+    border-radius: 50px;
+  }
+  .python{
+    width:70%;
+    height: 30px;
+    background-color: rgb(6, 130, 6);
+    border-radius: 50px;
+  }
+  .ds{
+    width:78%;
+    height: 30px;
+    background-color: rgb(6, 130, 6);
+    border-radius: 50px;
+  }
+  .reactjs{
+    width:80%;
+    height: 30px;
+    background-color: rgb(6, 130, 6);
+    border-radius: 50px;
+  }
+  .html{
+    width:90%;
+    height: 30px;
+    background-color: rgb(6, 130, 6);
+    border-radius: 50px;
+  }
+  .css{
+    width:80%;
+    height: 30px;
+    background-color: rgb(6, 130, 6);
+    border-radius: 50px;
+  }
+}
