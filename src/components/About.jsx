@@ -18,7 +18,7 @@ function About() {
                 <span className="highlight"> MERN </span> stack developer. i'm
                 very passionate about web developement and programming my goal
                 is to become software enginnering.in my free time i like to work
-                on projects. i'm currently looking for full-time{" "}
+                on projects. i'm currently looking for full-time{" "} entry-level{" "} 
                 <span className="highlight">SOFTWARE ENGINEERING</span> or{" "}
                 <span className="highlight">WEB DEVELOPMENT</span>{" "}
                 opportunities.

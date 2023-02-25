@@ -1,0 +1,5 @@
+input[type=range]::-webkit-slider-runnable-track{
+    width: 10%;
+    background-color: blue;
+    border-radius: 100px;
+  }

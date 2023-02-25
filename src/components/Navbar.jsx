@@ -35,7 +35,7 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className=" btn nav-link" href="/skill">Skills</a>
+                  <a className=" btn nav-link" href="#skills">Skills</a>
                 </li>
               </ul>
             </div>
