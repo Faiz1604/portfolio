@@ -1,6 +1,7 @@
 .header{
     background: url("./../../assets/images/headerImage.jpg");
-    background-size:contain;
+    background-size:auto;
+    background-repeat: no-repeat;
     width: 100%;
     height:60vh;
     position: relative;
@@ -13,14 +14,16 @@
     height: 100vh;
     position: absolute;
     top:0px;
+    color: aliceblue;
 }
 .short-intro{
     font-size: larger;
     margin-top: 10px;
     margin-right: 50px;
+    margin-left: 50px;
 }
 #intro-highlight{
-    color:rgb(6, 130, 6);
+    color:rgb(4, 71, 4);
     font-weight: bolder;
     font-family:monospace;
 }
@@ -29,7 +32,12 @@
         background-size:cover;
         height: 100vh;
     }
+    #intro-highlight{
+        color: rgb(6,130,6);
+    }
     .short-intro{
+        color: black;
         margin-top: 200px;
+        margin-left: 0px;
     }
 }

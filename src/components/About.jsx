@@ -9,7 +9,7 @@ function About() {
           <h1 className="highlight">Know More</h1>
           <hr />
           <div className="content">
-            <div className="container info">
+            <div className="info">
               <p>
                 My name is <span className="highlight">FAIZ SIDDIQUE </span>
                 currently persing B.Tech. i will be graduate in 2024 from Noida
@@ -36,23 +36,31 @@ function About() {
                   </span>
                   <br />
                 </span>
-                <span id="intermediate-school">
-                  <h4 className="highlight">XII</h4>
-                  <span>
-                    RB Children's Valley School Uttar Pradesh
-                    <br />
-                    2018-2020
-                  </span>
-                  <br />
+              </div>
+              <hr />
+              <h1 className="highlight">Certificates</h1>
+              <hr />
+              <div id="certification">
+                
+                <span>
+                  <p>Course : Object Oriented Programming In Java <br /> 
+                  Mode : Online <br />
+                  Offered through : Coursera</p>
                 </span>
-                <span id="high-school">
-                  <h4 className="highlight">X</h4>
-                  <span>
-                    Manavsthali Public School Uttar Pradesh
-                    <br />
-                    2018
-                  </span>
-                  <br />
+                <span>
+                  <p>Course : Java Programming : Array,List And Structured Data <br /> 
+                  Mode : Online <br />
+                  Offered through : Coursera</p>
+                </span>
+                <span>
+                  <p>Course : Data Structures <br /> 
+                  Mode : Online <br />
+                  Offered through : Coursera</p>
+                </span>
+                <span>
+                  <p>Course : Essential Google Cloud Infrastructure: Foundation<br/>
+                  Mode : Online <br />
+                  Offered through : Coursera</p>
                 </span>
               </div>
               <hr />

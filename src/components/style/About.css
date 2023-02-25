@@ -1,7 +1,9 @@
 .about{
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
-    padding: 50px;
+    padding-top:50px;
+    padding-left:10px;
+    padding-right:10px;
     background-color: rgb(200, 200, 200);
 }
 .highlight{
@@ -37,9 +39,31 @@
     border: 1px solid rgb(6, 130, 6);
     border-radius: 10px;
 }
+#certification{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    flex-direction: column;
+
+}
+#certification span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgb(6, 130, 6);
+    border-radius: 10px;
+    padding: 10px;
+
+}
 .projects{
     width:100%;
     display: flex;
+    flex-shrink: inherit;
+    flex-grow: inherit;
     flex-direction: column;
     flex-wrap: wrap;
     
@@ -48,18 +72,29 @@
 .project{
     width: 100%;
     margin-top: 20px;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid rgb(6, 130, 6);
     border-radius: 10px;
 }
 @media screen and (min-width:768px) {
+    .about{
+        padding:100px
+    }
     .education{
         width: 100%;
         flex-direction: row;
         justify-content: space-evenly;
     }
     #college-name,#intermediate-school,#high-school{
-        width: 25%;
+        width: 100%;;
+    }
+    #certification{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #certification span{
+        width:46%;
+        margin-bottom: 100px;
     }
     .projects{
         width: 100%;
@@ -67,6 +102,6 @@
         justify-content: space-evenly;
     }
     .project{
-        width: 40%;
+        width: 45%;
     }
 }
