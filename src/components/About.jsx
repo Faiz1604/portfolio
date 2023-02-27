@@ -14,7 +14,7 @@ function About() {
               <p>
                 <img src={photo} alt="Mypicture" />
                 My name is <span className="highlight">FAIZ SIDDIQUE </span>
-                currently persing B.Tech. i will be graduate in 2024 from Noida
+                currently persuing B.Tech. i will be graduate in 2024 from Noida
                 institute of engineering & Technology greater noida with degree
                 in computer science and engineer. i'm
                 <span className="highlight"> MERN </span> stack developer. i'm
